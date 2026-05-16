@@ -39,5 +39,3 @@ curl -H "Authorization: Bearer tu-token" https://echo.lab/api/me.php
 
 ---
 
-"# echo.lab" 
-"# echo.lab" 
