@@ -1,0 +1,14 @@
+[Unit]
+Description=echo Wake-on-LAN Agent
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/var/www/html/echo2
+ExecStart=/usr/bin/python3 /var/www/html/echo2/wakeonlan.py --serve --bind 127.0.0.1 --port 9999
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

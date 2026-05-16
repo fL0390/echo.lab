@@ -1,0 +1,7 @@
+{
+    "pve_ip": "192.168.248.30",
+    "pve_port": 8006,
+    "token_id": "root@pam!echo",
+    "token_secret": "c6b1a15d-2e32-4ae0-b45d-4722ab310419",
+    "proxy_port": 8081
+}
